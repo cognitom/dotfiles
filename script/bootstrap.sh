@@ -10,8 +10,6 @@ brew install caskroom/cask/brew-cask
 brew install git
 brew install hub
 brew install node
-brew install php56
-brew install composer
 brew install ansible
 brew install vagrant
 
@@ -40,7 +38,6 @@ brew cask install google-chrome
 brew cask install google-drive
 brew cask install mailplane
 brew cask install marked
-brew cask install name-mangler
 brew cask install pandoc
 brew cask install skype
 brew cask install sourcetree
@@ -60,7 +57,8 @@ defaults write com.apple.Preview PVImagePrintingAutoRotate 0
 defaults write com.apple.Preview PVImagePrintingScaleMode 0
 
 # other tools
-sh ./sketchtool.sh
+sh ./script/sketchtool.sh
+sh ./script/composer.sh
 
 # cleanup
 brew cleanup

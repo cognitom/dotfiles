@@ -2,11 +2,15 @@
 
 Good bye my dotfiles. I realize that I'm not using these so much these days.
 
+- Target: Mac OS X Yosemite
+
 ## 1: Xcode
 
 Install Xcode via App Store.
 
 - Xcode
+
+Make sure to launch Xcode and agree the license.
 
 ## 2: Automated
 
@@ -36,6 +40,7 @@ Install apps via App Store.
 - Kaleidoscope
 - Kobito
 - LINE
+- Name Mangler
 - Output
 - Patterns
 - Pixelmator
