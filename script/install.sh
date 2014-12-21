@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-sudo -v # ask for password only at the beginning
-
 # homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -60,19 +58,9 @@ apm install language-haskell
 apm install monokai
 apm install regex-railroad-diagram
 
-# set prefernces
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.google.Chrome DisablePrintPreview -bool true
-# next 2 lines doesn't work in Yosemite. Umm...
-#defaults write com.apple.Preview PVImagePrintingAutoRotate 0
-#defaults write com.apple.Preview PVImagePrintingScaleMode 0
-
 # other tools
-sh ./script/sketchtool.sh
-sh ./script/composer.sh
+sudo sh ./script/sketchtool.sh
+sudo sh ./script/composer.sh
 
 # cleanup
 brew cleanup

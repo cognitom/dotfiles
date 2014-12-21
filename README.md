@@ -1,6 +1,6 @@
 # Dotfiles without dotfiles
 
-Good bye my dotfiles. I realize that I'm not using these so much these days.
+Good bye my dotfiles. I realize that I'm not using these so much these days. So,this is just a task list of Mac setup for me.
 
 - Target: Mac OS X Yosemite
 
@@ -17,7 +17,7 @@ Make sure to launch Xcode and agree the license.
 Run this script.
 
 ```bash
-$ sh script/bootstrap.sh
+$ sh bootstrap.sh
 ```
 
 - Install CLI tools via [brew](http://brew.sh/), [npm](https://www.npmjs.com/), ...etc.

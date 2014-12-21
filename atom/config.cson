@@ -1,0 +1,12 @@
+'global':
+  'welcome':
+    'showOnStartup': false
+  'core':
+    'themes': [
+      'atom-light-ui'
+      'monokai'
+    ]
+  'editor':
+    'invisibles': {}
+  'tree-view':
+    'hideIgnoredNames': true
