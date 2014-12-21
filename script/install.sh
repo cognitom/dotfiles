@@ -59,8 +59,8 @@ apm install monokai
 apm install regex-railroad-diagram
 
 # other tools
-sudo sh ./script/sketchtool.sh
-sudo sh ./script/composer.sh
+sudo sh ./lib/sketchtool.sh
+sudo sh ./lib/composer.sh
 
 # cleanup
 brew cleanup
