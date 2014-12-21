@@ -5,7 +5,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 # nodebrew
 curl -L git.io/nodebrew | perl - setup
-echo export PATH=$HOME/.nodebrew/current/bin:$PATH >> ~/.profile
+echo export PATH=\$HOME/.nodebrew/current/bin:\$PATH >> ~/.profile
 source ~/.profile
 nodebrew install latest
 nodebrew install stable
