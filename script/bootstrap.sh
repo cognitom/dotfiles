@@ -10,6 +10,7 @@ curl -L git.io/nodebrew | perl - setup
 echo export PATH=$HOME/.nodebrew/current/bin:$PATH >> ~/.profile
 nodebrew install latest
 nodebrew install stable
+nodebrew use latest
 
 # tools via brew
 brew install caskroom/cask/brew-cask

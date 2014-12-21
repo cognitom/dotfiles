@@ -72,3 +72,9 @@ Install other apps by hand.
 - [OKI Hiper-C Printer Driver Updater](http://www5.okidata.co.jp/JSHIS163.nsf/SearchView/995B7723C12D0D9449257D9600002487?OpenDocument&charset=Shift_JIS)
 
 ...etc.
+
+## 6: Initialize
+
+```bash
+$ npm adduser
+```
