@@ -1,6 +1,6 @@
 # Dotfiles without dotfiles
 
-Good bye my dotfiles. I realize that I'm not using these so much these days. So,this is just a task list of Mac setup for me.
+Good bye my dotfiles. I realize that I'm not using these so much these days. So, this is just a task list of Mac setup for me.
 
 - Target: Mac OS X Yosemite
 
@@ -14,7 +14,7 @@ Make sure to launch Xcode and agree the license.
 
 ## 2: Automated
 
-Run this script.
+Download this repo, then run the script.
 
 ```bash
 $ sh bootstrap.sh
