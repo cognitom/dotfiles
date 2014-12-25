@@ -47,6 +47,7 @@ brew cask install firefox
 brew cask install github
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install ksdiff
 brew cask install mailplane
 brew cask install marked
 brew cask install pandoc
