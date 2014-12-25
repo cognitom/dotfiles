@@ -2,6 +2,7 @@
 
 # homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap homebrew/php
 
 # nodebrew
 curl -L git.io/nodebrew | perl - setup
