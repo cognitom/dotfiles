@@ -16,6 +16,10 @@ brew install caskroom/cask/brew-cask
 brew install git
 brew install hub
 brew install ansible
+brew install php55
+brew install mcrypt
+brew install php55-mcrypt
+echo export "PATH=\$(brew --prefix php55)/bin:\$PATH" >> ~/.profile
 
 # tools via npm
 npm install -g bower
