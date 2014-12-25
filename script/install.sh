@@ -46,6 +46,7 @@ brew cask install google-drive
 brew cask install mailplane
 brew cask install marked
 brew cask install pandoc
+brew cask install querious
 brew cask install skype
 brew cask install sourcetree
 brew cask install vagrant
