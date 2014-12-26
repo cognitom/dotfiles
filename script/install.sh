@@ -70,5 +70,8 @@ apm install regex-railroad-diagram
 sudo sh ./lib/sketchtool.sh
 sudo sh ./lib/composer.sh
 
+# fix for Vagrant Manager
+sudo ln -s /usr/local/bin/ansible-playbook /usr/bin/ansible-playbook
+
 # cleanup
 brew cleanup
