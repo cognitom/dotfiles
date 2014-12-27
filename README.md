@@ -57,7 +57,7 @@ Install apps via App Store.
 
 Install other apps by hand.
 
-- Adobe Illustrator
+- [Adobe Illustrator](http://helpx.adobe.com/x-productkb/policy-pricing/cs6-product-downloads.html)
 - Antetype
 - FortiClient
 - SkyFonts
