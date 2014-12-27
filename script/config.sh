@@ -15,5 +15,8 @@ defaults write com.google.Chrome DisablePrintPreview -bool true
 #defaults write com.apple.Preview PVImagePrintingAutoRotate 0
 #defaults write com.apple.Preview PVImagePrintingScaleMode 0
 
+# Adobe Illustrator
+defaults write com.adobe.illustrator AppleLanguages '("ja")'
+
 # Atom
 cp -R atom ~/.atom
