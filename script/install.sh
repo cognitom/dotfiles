@@ -3,6 +3,7 @@
 # homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap homebrew/php
+brew tap caskroom/fonts
 
 # nodebrew
 curl -L git.io/nodebrew | perl - setup
@@ -59,6 +60,9 @@ brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
 brew cask install vlc
+
+# fonts via caskroom-fonts
+brew cask install font-noto-sans-japanese
 
 # packages via apm
 apm install file-icons
