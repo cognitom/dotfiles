@@ -25,7 +25,7 @@ echo export "PATH=\$(brew --prefix php55)/bin:\$PATH" >> ~/.profile
 
 # tools via npm
 npm install -g bower
-npm install -g coffee-script
+#npm install -g coffee-script
 npm install -g gulp
 npm install -g gulp-straw
 npm install -g istanbul
