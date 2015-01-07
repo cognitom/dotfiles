@@ -59,8 +59,9 @@ Install other apps by hand.
 
 - [Adobe Illustrator](http://helpx.adobe.com/x-productkb/policy-pricing/cs6-product-downloads.html)
 - Antetype
-- FortiClient
+- [FortiClient](http://forticlient.com/downloads/FortiClient_Installer.dmg)
 - SkyFonts
+- [UP! 3D Printer](http://www.pp3dp.com/index.php?option=com_jdownloads&Itemid=90&view=viewdownload&catid=1&cid=52)
 - [Finder Boost](http://hobbyistsoftware.com/finderBoost)
 
 ...etc.
