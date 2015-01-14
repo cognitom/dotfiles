@@ -18,6 +18,7 @@ brew install caskroom/cask/brew-cask
 brew install git
 brew install hub
 brew install ansible
+brew install wget
 brew install php55
 brew install mcrypt
 brew install php55-mcrypt
@@ -29,7 +30,9 @@ npm install -g bower
 npm install -g gulp
 npm install -g gulp-straw
 npm install -g istanbul
+npm install -g david
 npm install -g node-inspector
+npm install -g superstatic
 
 # tools via gem
 sudo gem install slim
@@ -63,6 +66,7 @@ brew cask install vlc
 
 # fonts via caskroom-fonts
 brew cask install font-noto-sans-japanese
+brew cask install font-lobster
 
 # packages via apm
 apm install file-icons
@@ -73,9 +77,6 @@ apm install regex-railroad-diagram
 # other tools
 sudo sh ./lib/sketchtool.sh
 sudo sh ./lib/composer.sh
-
-# fix for Vagrant Manager
-sudo ln -s /usr/local/bin/ansible-playbook /usr/bin/ansible-playbook
 
 # cleanup
 brew cleanup
