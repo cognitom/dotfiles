@@ -45,9 +45,9 @@ Install apps via App Store.
 - Patterns
 - Pixelmator
 - Pocket
-- Sketch
+- [PopHub](http://questbe.at/pophub/)
+- [Sketch](http://bohemiancoding.com/sketch/)
 - Sunrise
-- TheHub
 - Totals
 - Ultra Character Map
 
