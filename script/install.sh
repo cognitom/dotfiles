@@ -65,8 +65,9 @@ brew cask install virtualbox
 brew cask install vlc
 
 # fonts via caskroom-fonts
-brew cask install font-noto-sans-japanese
+brew cask install font-fontawesome
 brew cask install font-lobster
+brew cask install font-noto-sans-japanese
 
 # packages via apm
 apm install file-icons
