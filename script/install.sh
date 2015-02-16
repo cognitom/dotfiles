@@ -14,6 +14,7 @@ nodebrew install stable
 nodebrew use latest
 
 # tools via brew
+brew install ant
 brew install caskroom/cask/brew-cask
 brew install git
 brew install hub
@@ -36,11 +37,13 @@ npm install -g superstatic
 
 # tools via gem
 sudo gem install slim
+sudo gem install togglate
 
 # desktop apps via cask
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew cask install 0xed
 brew cask install 1password
+brew cask install android-studio
 brew cask install atom
 brew cask install brackets
 brew cask install chocolat
@@ -68,6 +71,12 @@ brew cask install vlc
 brew cask install font-fontawesome
 brew cask install font-lobster
 brew cask install font-noto-sans-japanese
+
+# tools for Android Development
+npm install -g cordova
+npm install -g ionic
+echo export PATH=\$HOME/Library/Android/sdk/platform-tools:\$PATH >> ~/.profile
+echo export PATH=\$HOME/Library/Android/sdk/tools:\$PATH >> ~/.profile
 
 # packages via apm
 apm install file-icons
