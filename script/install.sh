@@ -18,6 +18,7 @@ brew install ant
 brew install caskroom/cask/brew-cask
 brew install git
 brew install hub
+brew install mongodb
 brew install ansible
 brew install wget
 brew install php55
@@ -34,6 +35,7 @@ npm install -g istanbul
 npm install -g david
 npm install -g node-inspector
 npm install -g superstatic
+npm install -g deployd
 
 # tools via gem
 sudo gem install slim
@@ -52,9 +54,11 @@ brew cask install dropbox
 brew cask install espresso
 brew cask install fake
 brew cask install firefox
+brew cask install fluid
 brew cask install github
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install jeromelebel-mongohub
 brew cask install ksdiff
 brew cask install mailplane
 brew cask install marked
