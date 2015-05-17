@@ -4,7 +4,7 @@
   'core':
     'themes': [
       'atom-light-ui'
-      'monokai'
+      'birds-of-paradise-theme'
     ]
   'editor':
     'invisibles': {}

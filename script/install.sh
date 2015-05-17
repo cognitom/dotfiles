@@ -83,8 +83,6 @@ echo export PATH=\$HOME/Library/Android/sdk/platform-tools:\$PATH >> ~/.profile
 echo export PATH=\$HOME/Library/Android/sdk/tools:\$PATH >> ~/.profile
 
 # packages via apm
-apm install autocomplete-css
-apm install autocomplete-plus
 apm install birds-of-paradise-theme
 apm install file-icons
 apm install japanese-wrap
